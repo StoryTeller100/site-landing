@@ -1,0 +1,53 @@
+body {
+    background-image: url(../images/img2.jpg);
+}
+/*name*/
+.name {
+border: solid transparent;
+background-color: rgba(199, 224, 240, .4);
+width: 400px;
+height: 150px;
+margin: 35px auto;
+position: relative;   
+
+}
+/*menu*/
+.about {
+    border: solid transparent;
+    background-color: rgba(199, 224, 240, .4);
+    width: 800px;
+    height: 300px;
+ 
+    margin-top: 100px;
+    margin-left: 400px;
+}
+.prop1, .prop2, .prop3 {
+    
+    margin-left: 70px;
+}
+.skill {
+    border: solid transparent;
+    background-color: rgba(199, 224, 240, .4);
+    width: 800px;
+    height: 300px;
+     
+    margin-top: 100px;
+    margin-left: 400px; 
+}
+/*foto*/
+.img1 {
+
+    border: solid rgb(248, 244, 234);
+    position: fixed;
+    top: 40px;
+    left: 10px;
+}
+/*контакт*/
+.contact {
+    border: solid transparent;
+    background-color: rgba(199, 224, 240, .4);
+    width: 800px;
+    height: 150px;
+    margin-top: 100px;
+    margin-left: 400px;
+}
