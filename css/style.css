@@ -1,53 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital@0;1&family=Nunito+Sans:ital@0;1&family=Playfair+Display:wght@400;500;600&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital@0;1&family=Nunito+Sans:ital@0;1&family=Playfair+Display:wght@400;500;600&family=Tinos:ital@0;1&family=Yeseva+One&display=swap');
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+
 body {
-    background-image: url(../images/img2.jpg);
+    font-family: 'Tinos', serif;
+    font-size: 16px;
+    font-style: normal;
+    min-height: 100vh;
 }
-/*name*/
-.name {
-border: solid transparent;
-background-color: rgba(199, 224, 240, .4);
-width: 400px;
-height: 150px;
-margin: 35px auto;
-position: relative;   
-
+.wrapper {
+    background-image: url(../images/img2.3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-/*menu*/
-.about {
-    border: solid transparent;
-    background-color: rgba(199, 224, 240, .4);
-    width: 800px;
-    height: 300px;
- 
-    margin-top: 100px;
-    margin-left: 400px;
+.header {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
 }
-.prop1, .prop2, .prop3 {
+.prop {
+    position: relative;
     
-    margin-left: 70px;
+    
+    font-size: 1.5rem;
+    line-height: 251%;
+   
+    margin-left: 60px;
+    color: #7a5011;
 }
-.skill {
-    border: solid transparent;
-    background-color: rgba(199, 224, 240, .4);
-    width: 800px;
-    height: 300px;
-     
-    margin-top: 100px;
-    margin-left: 400px; 
-}
-/*foto*/
-.img1 {
+.icon {
+  max-width: 59px;
+  max-height: 59px;
+  position: absolute;
+ 
 
-    border: solid rgb(248, 244, 234);
-    position: fixed;
-    top: 40px;
-    left: 10px;
 }
-/*контакт*/
+.img1 {
+    max-width: 350px;
+    max-height: 528px;
+}
 .contact {
-    border: solid transparent;
-    background-color: rgba(199, 224, 240, .4);
-    width: 800px;
-    height: 150px;
-    margin-top: 100px;
-    margin-left: 400px;
+    display: flex;
+
+
+
 }

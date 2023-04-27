@@ -1,0 +1,24 @@
+@media (max-width: 1199px) {
+    .wrapper {
+        background-position: left;
+        
+    }
+    .icon {
+   
+        
+    }
+    .prop {
+   
+    }
+}
+@media (max-width: 991px) {
+    .prop {
+        
+         }
+}
+@media (max-width: 767px) {
+   
+}
+@media (max-width: 575px) {
+
+}
