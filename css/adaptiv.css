@@ -3,20 +3,18 @@
         background-position: left;
         
     }
-    .icon {
    
-        
-    }
-    .prop {
-   
-    }
 }
 @media (max-width: 991px) {
-    .prop {
-        
-         }
+    .icon-item {
+        margin-left: 20px;
+       }
 }
+   
 @media (max-width: 767px) {
+    .icon-item {
+        margin-left: 10px;
+       }
    
 }
 @media (max-width: 575px) {

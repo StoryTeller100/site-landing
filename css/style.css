@@ -19,13 +19,26 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
+}
+
+.continer {
+    max-width: 1256px;
+    padding: 0 15px;
+    margin: 0 auto;
+ 
 }
 .header {
-    margin-bottom: 50px;
+    box-shadow: 3px 12px 20px 6px rgba(16, 33, 46, 0.13);
+}
+.header__menu {
+    
+    padding: 20px 0 20px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-.prop {
+.logo-name {
     position: relative;
     
     
@@ -47,8 +60,15 @@ body {
     max-height: 528px;
 }
 .contact {
+   
+}
+.contact__list {
     display: flex;
+    justify-content: space-between;
 
 
 
+}
+.icon-item {
+ margin-left: 67px;
 }
