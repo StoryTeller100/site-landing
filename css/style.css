@@ -25,6 +25,7 @@ body {
 
 }
 
+
 .continer {
     max-width: 1256px;
     padding: 0 15px;
@@ -41,25 +42,25 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 77px;
 }
 .logo-name {
     position: relative;
-    
-    
-    font-size: 1.5rem;
+    font-family: Playfair Display;
+    font-size: 2rem;
     line-height: 251%;
-   
+  
     margin-left: 60px;
     color: #373737;
 }
-.icon {
+/* .icon {
   max-width: 59px;
   max-height: 59px;
   position: absolute;
-
+display: none;
  
 
-}
+} */
 .img1 {
     max-width: 350px;
     max-height: 528px;
@@ -76,6 +77,9 @@ body {
 }
 .icon-item {
  margin-left: 67px;
+cursor: pointer;
 
-
+}
+.github__activ {
+    margin-right: 30px;
 }
